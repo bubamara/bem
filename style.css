@@ -1,1 +1,31 @@
-/* BEM */
+/* BEM -*/
+/*popularna konwencja nazywania klas węzłów HTML oraz tworzenia selektorów CSS*/
+/* minimalna rola zagnieżdżeń */
+/*  KOMPONENTY */
+/* przykładowe - stopka, przycisk, menu, slider, wyszukiwarka,   */
+/* są względem siebie równe */
+/* wielokrotnego użytku */
+/* unikalna nazwa */
+/* może być blok w bloku */
+/* krótkie nazwy, opisuje co robi komponent */
+/* ELEMENT */
+/* część komponentu, nie występuje poza nim */
+/* może należeć tylko do jednego elementu */
+/* unikalna, ale tylko w obrębie bloku */
+/* MENU */
+/* komponent/blok - niezależna część interfejsu*/
+.menu {
+}
+/* element - zależny od bloku, nie występuje poza nim! */
+.menu__icon {
+}
+.menu__link {
+  color: red;
+}
+/* modyfikator komponentu - niestandardowy blok lub element, nigdy nie występuje samodzielnie (zawsze obok innej klasy) */
+.menu--vertical {
+}
+
+/* modyfikator elementu */
+.menu__item--open {
+}

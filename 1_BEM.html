@@ -10,25 +10,36 @@
   <body>
     <!-- Nie ma podwójnych zagnieżdżeń -->
     <!-- Nav - blok -->
-    <nav class="menu">
-      <div class="menu__logo">
+    <!-- menu--vertical to modyfikator komponentu -->
+    <nav class="menu menu--vertical">
+      <!-- Pozostałe w bloku to elementy -->
+      <div class="menu__logo ">
         <img class="menu__logo-image" src="" alt="" /><span
           class="menu__logo-name"
           >Nazwa</span
         >
       </div>
       <ul class="menu__item-list">
-        <li class="menu__item">
-          <a class="menu__link" href="">link-1<img src="" alt=""/></a>
+        <!-- Modyfikator elementu -->
+        <li class="menu__item menu__item--open">
+          <a class="menu__link" href=""
+            >link-1<img class="menu__icon" src="" alt=""
+          /></a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="">link-2<img src="" alt=""/></a>
+          <a class="menu__link" href=""
+            >link-2<img class="menu__icon" src="" alt=""
+          /></a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="">link-3<img src="" alt=""/></a>
+          <a class="menu__link" href=""
+            >link-3<img class="menu__icon" src="" alt=""
+          /></a>
         </li>
         <li class="menu__item">
-          <a class="menu__link" href="">link-4<img src="" alt=""/></a>
+          <a class="menu__link" href=""
+            >link-4<img class="menu__icon" src="" alt=""
+          /></a>
         </li>
       </ul>
     </nav>
